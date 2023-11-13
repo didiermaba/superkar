@@ -10,7 +10,7 @@ const Nav = () => {
                 </p>
                 <ul>
                     <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Accueil</NavLink></li>
-                    <li>Vehicules</li>
+                    <li>Véhicules</li>
                     <li><NavLink to="/customizer" className={({ isActive }) => (isActive ? 'active' : '')}>Customizer</NavLink></li>
                     <li>Visite</li>
                 </ul>

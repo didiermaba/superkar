@@ -56,7 +56,7 @@ export default Home;
  *  import Typed from "typed.js";
  * 
  * 3. Créer une référence à l'élément qui contiendra le texte:
- * const el = useRef(null);
+ * const elt = useRef(null);
  * 
  * 4. Dans le useEffect, créer une instance de Typed dans laquelle
  * on passe la référence à l'élément et les options de configuration.
